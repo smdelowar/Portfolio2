@@ -1,0 +1,129 @@
+/* For desktop: */
+.col-1 {
+   width: 8.33%;
+}
+.col-2 {
+   width: 16.66%;
+}
+.col-3 {
+   width: 25%;
+}
+.col-4 {
+   width: 33.33%;
+}
+.col-5 {
+   width: 41.66%;
+}
+.col-6 {
+   width: 50%;
+}
+.col-7 {
+   width: 58.33%;
+}
+.col-8 {
+   width: 66.66%;
+}
+.col-9 {
+   width: 75%;
+}
+.col-10 {
+   width: 83.33%;
+}
+.col-11 {
+   width: 91.66%;
+}
+.col-12 {
+   width: 100%;
+}
+/* navbar start  */
+.head {
+   /* height: 100vh; */
+}
+
+.heading h1 {
+   text-align: right;
+   margin-top: 20px;
+}
+.heading h1:hover {
+   transform: scale(1.2);
+   color: rgb(0, 12, 8);
+}
+.menu {
+   flex-direction: row;
+   justify-content: flex-end;
+}
+.menu a {
+   margin: 0 2px;
+   width: 95px;
+   padding: 3px 2px;
+   margin-top: 20px;
+}
+p {
+   font-size: 16px;
+   text-align: justify;
+   padding: 20px;
+   margin-bottom: 60px;
+   margin-top: 20px;
+   width: 60%;
+   margin: auto;
+}
+/* navbar end  */
+/* header section start */
+.profile h1:hover {
+   transform: scale(1.2);
+   transition: 1s;
+}
+/* header section end */
+/* about section start  */
+.about {
+   height: 100vh;
+   background: #059862;
+}
+.about-me-hr {
+   height: 2px;
+   width: 40%;
+   margin: 10px 60px;
+}
+.about-me p {
+   margin-left: 10%px;
+}
+.skills {
+   height: 100vh;
+   padding: 10px;
+   margin: 5px;
+}
+/* about section end  */
+
+/* experince section  */
+
+.card-exp ul li p {
+   font-size: 14px;
+   width: 90%;
+}
+/* Success sction start  */
+.social-media {
+   margin-left: 80px;
+   margin-bottom: 70px;
+   width: 100%;
+}
+.media-button .btn {
+   margin: 40px 10px;
+   padding: 0 20px;
+}
+
+/* Success sction end  */
+
+/* footer section star  */
+
+.footer-menu {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+.footer hr {
+   display: none;
+}
+.footer-des {
+   margin-left: 80px;
+}
+/* footer section star  */
