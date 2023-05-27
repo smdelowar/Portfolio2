@@ -275,7 +275,7 @@ span {
    height: 700px;
    box-shadow: 3px 3px;
    margin: 5px;
-   color: rgba(229, 234, 240, 0.809);
+   color: #161001;
 }
 .card-skill:hover {
    box-shadow: 2px 2px;
