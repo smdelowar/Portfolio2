@@ -69,6 +69,11 @@ p {
 }
 /* navbar end  */
 /* header section start */
+
+.profile h1 {
+   margin-bottom: 30px;
+   font-size: 3.5rem;
+}
 .profile h1:hover {
    transform: scale(1.2);
    transition: 1s;
@@ -85,7 +90,7 @@ p {
    margin: 10px 60px;
 }
 .about-me p {
-   margin-left: 10%px;
+   margin-left: 10%;
 }
 .skills {
    height: 100vh;

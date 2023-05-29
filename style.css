@@ -51,7 +51,7 @@ font-family: 'Satisfy', cursive;
 .description p {
    font-size: 16px;
    text-align: justify;
-   padding: 3pax;
+   padding: 3px;
    margin-bottom: 60px;
    cursor: pointer;
 }
@@ -165,7 +165,7 @@ span {
 }
 .about-me-img img {
    width: 180px;
-   height: 210x;
+   height: 210px;
    margin: 25px 27%;
    border-radius: 55%;
    border: 1px solid #000;
@@ -226,8 +226,8 @@ span {
 .card-exp:hover {
    box-shadow: 2px 2px;
    color: #161001;
-   background: #ebe4e4;
-   transition: 0.3s;
+   background: #9e8686;
+   transition: 1s;
 }
 .card-exp .icon img {
    width: 80px;
@@ -250,9 +250,10 @@ span {
    width: 100%;
    cursor: pointer;
 }
+
 .card-exp ul li p {
    padding: 10px;
-   font-size: 1r;
+   font-size: 1rem;
    margin: 5px 20px;
    color: #080600;
 }
@@ -261,8 +262,9 @@ span {
    text-transform: capitalize;
 }
 
-.card-exp ol {
-   margin: 20px;
+.card-exp .project li {
+   margin: 10px;
+   list-style: none;
 }
 .card-exp ol li p {
    padding: 5px;
@@ -280,7 +282,8 @@ span {
 .card-skill:hover {
    box-shadow: 2px 2px;
    color: #161001;
-   background: #ebe4e4;
+   background: #9e8686;
+   transition: 1s;
 }
 .card-skill .icon img {
    width: 80px;
@@ -339,7 +342,7 @@ span {
    animation-fill-mode: forwards;
    animation-timing-function: linear;
 }
-.card-skill li.html::after {
+.card-skill li .html::after {
    animation-name: html;
 }
 @keyframes html {
